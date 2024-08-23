@@ -20,11 +20,6 @@
     margin-left: 3%;
     margin-top: 8%;
 }
-.imageport{
-    width: 11vh;
-    height: 11vh;
-    border-radius: 50%;
-}
 .center{
     flex: 5;
     display: flex;
