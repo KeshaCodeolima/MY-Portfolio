@@ -7,7 +7,6 @@ function Navbar(){
         <nav>
             <div className="Navmain">
                 <div className="leftside">
-                    
                     <p>Keshan Kulasekara</p>
                 </div>
 
