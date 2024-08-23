@@ -5,6 +5,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    height: 10%;
 }
 .leftside{
     flex: 4;
@@ -15,20 +16,15 @@
 }
 .leftside p{
     color: white;
-    font-size: 24px;
+    font-size: 26px;
     font-weight:900;
-    margin-left: 3%;
-    margin-top: 8%;
-}
-.imageport{
-    width: 11vh;
-    height: 11vh;
-    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 .center{
     flex: 5;
     display: flex;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 .iteams a{
     margin-left:50px;
@@ -43,7 +39,7 @@
 .rightside{
     flex: 3;
     margin-left: 16%;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .button{
     background-image: linear-gradient(to right,rgb(246, 45, 79),yellow);
@@ -54,7 +50,7 @@
     color: white;
     font-size: 16px;
     font-weight: 600;
-    margin-top: -3%;
+    margin-top: 1%;
     transition: 1000ms;
 }
 .button:hover{
