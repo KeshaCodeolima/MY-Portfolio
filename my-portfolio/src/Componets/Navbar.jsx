@@ -1,5 +1,4 @@
 import React from "react";
-import Image1 from '../Images/Photo.jpg'
 import './Navbar.css';
 
 function Navbar(){
@@ -8,7 +7,6 @@ function Navbar(){
         <nav>
             <div className="Navmain">
                 <div className="leftside">
-                    <img src={Image1} alt="photos" className="imageport"/>
                     <p>Keshan Kulasekara</p>
                 </div>
 
