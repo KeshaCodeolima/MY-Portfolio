@@ -6,6 +6,9 @@ function AboutMe() {
   return (
     <>
     <div className="aboutme">
+        <div className="line">
+            <hr />
+        </div>
         <div className="image">
             <img src={Image1} alt="Myphoto" className='image1'/>
         </div>

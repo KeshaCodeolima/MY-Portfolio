@@ -13,8 +13,8 @@
 }
 .image1{
     width: 30vh;
-    height: 32vh;
-    border-radius: 20%;
+    height: 34vh;
+    border-radius: 10%;
 }
 .text{
     margin-left: 30%;
@@ -60,4 +60,9 @@
 }
 .btn1:hover{
     transform: scale(1.1);
+}
+.line hr{
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(71, 236, 71),rgb(47, 47, 227));
 }
