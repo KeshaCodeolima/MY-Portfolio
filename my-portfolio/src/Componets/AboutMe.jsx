@@ -10,12 +10,12 @@ function AboutMe() {
             <img src={Image1} alt="Myphoto" className='image1'/>
         </div>
         <div className="text">
-            <p>I'm <span>Kehan Kulasekara</span>,Full-Stack Developer</p>
-            <p>I specialize in building modern and responsive Web Applications.</p>
+            <p className='textp1'>I'm <span>Kehan Kulasekara</span>, Full-Stack Developer.</p>
+            <p className='textp2'>I specialize in building modern and responsive Web Applications.</p>
         </div>
-        <div className="button">
-            <button>Contact with me</button>
-            <button>Download CV</button>
+        <div className="button1">
+            <button className='btn1'>Contact with me</button>
+            <button className='btn1'>Download CV</button>
         </div>
     </div>
     </>

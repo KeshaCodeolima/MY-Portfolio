@@ -1,0 +1,63 @@
+.aboutme{
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.image1{
+    width: 30vh;
+    height: 32vh;
+    border-radius: 20%;
+}
+.text{
+    margin-left: 30%;
+    margin-top: 2%;
+    word-spacing: 3px;
+}
+.textp1{
+    color: white;
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.textp2{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -1%;
+    margin-left: 6.5%;
+    margin-top: -1%;
+}
+.text span{
+    background-image: linear-gradient(to right, rgb(71, 236, 71),rgb(47, 47, 227));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.button1{
+    display: flex;
+    margin-left: 37%;
+}
+.btn1{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 26px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background-image: linear-gradient(to right, rgb(71, 236, 71),rgb(47, 47, 227));
+    transition: 2s;
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
