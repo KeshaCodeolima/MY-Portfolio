@@ -9,7 +9,7 @@ function AboutMe() {
         <h1>About Me.</h1>
       </div>
       <div className="iteam">
-        <div className="text">
+        <div className="textAbout">
           <p className='text1'>I am a passionate Full-Stack developer with a focus on building modern and responsive Web Applications and Mobile Applications. With a strong foundation in both frontend and backend technologies,I strive to create seamless and efficient user experiences.</p>
         </div>
         <div className="lang">
