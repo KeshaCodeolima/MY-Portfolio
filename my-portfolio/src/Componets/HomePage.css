@@ -9,12 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 .image1{
     width: 30vh;
     height: 34vh;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 .text{
     margin-left: 30%;
@@ -36,7 +36,7 @@
     margin-top: -1%;
 }
 .text span{
-    background-image: linear-gradient(to right, rgb(71, 236, 71),rgb(47, 47, 227));
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -55,7 +55,7 @@
     margin-left: 4%;
     margin-bottom: 2%;
     margin-top: 2%;
-    background-image: linear-gradient(to right, rgb(71, 236, 71),rgb(47, 47, 227));
+    background-image: linear-gradient(to right,#53ea49,#2575b7);
     transition: 2s;
 }
 .btn1:hover{
@@ -64,5 +64,5 @@
 .line hr{
     border: none;
     height: 3px;
-    background-image: linear-gradient(to right, rgb(71, 236, 71),rgb(47, 47, 227));
+    background-image: linear-gradient(to right,#53ea49,#2575b7);
 }
