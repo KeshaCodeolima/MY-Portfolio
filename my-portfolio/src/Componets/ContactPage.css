@@ -21,15 +21,17 @@
 }
 .itemscontact p{
     color: white;
-    margin-left: 5.5%;
-    font-size:22px;
-    margin-top: -2%;
+    margin-left: 5%;
+    font-size:24px;
+    margin-top: -1%;
+    text-align:left;
 }
 .contacttext{
     color: white;
-    font-size: 20px;
-    margin-left: 12%;
-    margin-top: 8%;
+    font-size: 21px;
+    margin-left: 10%;
+    margin-top: 7%;
+    padding-top: -6%;
 }
 .contacttext p{
     padding-top: 3%;
@@ -41,4 +43,52 @@
 }
 .sendmail{
     color:white;
+    margin-left: 16%;
+    margin-right: 2%;
+}
+.sendmail input,textarea,button{
+    margin-left: 4%;
+    margin-top: 4.5%;
+    padding: 10px 22px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(103, 99, 99);
+}
+.sendmail input{
+    width: 40%;
+    color: white;
+    font-size: 13.5px;
+}
+.sendmail input::placeholder{
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14.5px;
+}
+.sendmail textarea{
+    width: 60%;
+    height: 16vh;
+}
+.sendmail textarea::placeholder{
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14.5px;
+}
+.btn2{
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    padding: 8px 54px;
+    color: white;
+    margin-bottom: 3%;
+}
+.icons{
+    margin-right: 3%;
+    margin-top: 1%;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
 }
