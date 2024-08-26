@@ -22,8 +22,8 @@
 .itemscontact p{
     color: white;
     margin-left: 5%;
-    font-size:24px;
-    margin-top: -1%;
+    font-size:20px;
+    margin-top: 1%;
     text-align:left;
 }
 .contacttext{
@@ -32,6 +32,16 @@
     margin-left: 10%;
     margin-top: 7%;
     padding-top: -6%;
+}
+.itemscontact span{
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:32px;
+    font-weight: bold;
+    margin-top: -1%;
+    text-align:left;
+    margin-left: 5%;
 }
 .contacttext p{
     padding-top: 3%;
