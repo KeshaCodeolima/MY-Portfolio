@@ -1,0 +1,44 @@
+.contactmain{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 125%;
+    background-color: black;
+}
+.contactmain h1{
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+.contact{
+    display: flex;
+}
+.contactleft{
+    flex: 4;
+    margin-top: 6%;
+    margin-bottom: 14%;
+}
+.itemscontact p{
+    color: white;
+    margin-left: 5.5%;
+    font-size:22px;
+    margin-top: -2%;
+}
+.contacttext{
+    color: white;
+    font-size: 20px;
+    margin-left: 12%;
+    margin-top: 8%;
+}
+.contacttext p{
+    padding-top: 3%;
+}
+.contactright{
+    flex: 5;
+    margin-top: 6%;
+    margin-bottom: 14%;
+}
+.sendmail{
+    color:white;
+}
