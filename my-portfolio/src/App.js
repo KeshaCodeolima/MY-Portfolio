@@ -1,5 +1,5 @@
 import AboutMe from "./Componets/AboutMe";
-import HomePage from "./Componets/HomePage";
+import ContactPage from "./Componets/ContactPage";
 import Navbar from "./Componets/Navbar";
 import ServicePage from "./Componets/ServicePage";
 
@@ -7,9 +7,9 @@ function App() {
   return (
     <>
     <Navbar/>
-    <HomePage/>
     <AboutMe/>
     <ServicePage/>
+    <ContactPage/>
     </>
   );
 }
