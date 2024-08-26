@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 .iteam{
     display: flex;
@@ -33,7 +33,6 @@
     color: white;
     margin-left: 5%;
     margin-top: 3%;
-
     display: flex;
     flex-direction: column;
 }
@@ -133,39 +132,35 @@
     color: white;
     font-size: 18px;
 }
-.lineractjs:hover{
+.lineractjs:hover,.lineHTML:hover,.linejava:hover,.linepython:hover,.linePHP:hover,.lineNodejs:hover{
     transform: scale(1);
 }
-.linerwidth:hover{
+.linerwidth:hover,.linerwidthhtml:hover,.linerwidthjava:hover,.linerwidthpython:hover,.linerwidthphp:hover,.linerwidthnodejs:hover{
     transform: scale(1.1);
 }
-.lineHTML:hover{
-    transform: scale(1);
+.experience1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /* Makes sure the experience1 takes up the entire width of .experience */
+    color: white;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
-.linerwidthhtml:hover{
-    transform: scale(1.1);
+.experiencetext{
+    text-align: center;
+    flex: 1;
+    transition: 2s;
 }
-.linejava:hover{
-    transform: scale(1);
+.experiencetext span{
+    font-size: 26px;
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
-.linerwidthjava:hover{
-    transform: scale(1.1);
-}
-.linepython:hover{
-    transform: scale(1);
-}
-.linerwidthpython:hover{
-    transform: scale(1.1);
-}
-.linePHP:hover{
-    transform: scale(1);
-}
-.linerwidthphp:hover{
-    transform: scale(1.1);
-}
-.lineNodejs:hover{
-    transform: scale(1);
-}
-.linerwidthnodejs:hover{
+.experiencetext:hover{
     transform: scale(1.1);
 }

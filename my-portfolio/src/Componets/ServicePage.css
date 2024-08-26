@@ -1,0 +1,53 @@
+.serviceboxmain{
+    background-color:black;
+    width:100%;
+    left: 0;
+    position:absolute;
+    margin-top: 10%;
+    margin-top: 80%;
+}
+.topic h1{
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+}
+.servicebox1{
+    margin-top: 4%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin-left: 6%;
+    max-width: 1400px;
+    margin-bottom: 6%;
+}
+.boxtext{
+    color: white;
+    background-color: #464748;
+    border-radius: 6px;
+    margin-top: 2%;
+    padding:30px;
+    transition: 2s;
+}
+.boxtext h4{
+    font-size: 26px;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.boxtext span{
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.boxtext:hover{
+    transform: scale(1.1);
+}

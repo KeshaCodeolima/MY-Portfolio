@@ -46,6 +46,20 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      <div className="experience1">
+        <div className="experiencetext">
+          <span>1+</span>
+          <p>Years Experience</p>
+        </div>
+        <div className="experiencetext">
+          <span>10+</span>
+          <p>Projects Compeleted</p>
+        </div>
+        <div className="experiencetext">
+          <span>6+</span>
+          <p>Happy Clients</p>
+        </div>
+      </div>
     </div>
     </>
   )
