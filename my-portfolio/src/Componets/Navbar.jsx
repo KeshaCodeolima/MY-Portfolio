@@ -13,9 +13,9 @@ function Navbar(){
                 <div className="center">
                     <div className="iteams">
                         <a href="#home">Home</a>
-                        <a href="#About Me">About Me</a>
-                        <a href="#home">Skills</a>
-                        <a href="#home">Contact Me</a>
+                        <a href="#aboutme">About Me</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact Me</a>
                     </div>
                 </div>
 
