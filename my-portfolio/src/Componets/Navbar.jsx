@@ -7,7 +7,7 @@ function Navbar(){
         <nav>
             <div className="Navmain">
                 <div className="leftside">
-                    <p>Kesha Web</p>
+                    <p>Kesha Web Development</p>
                 </div>
 
                 <div className="center">
