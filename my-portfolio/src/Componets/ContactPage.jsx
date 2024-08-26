@@ -10,7 +10,7 @@ function ContactPage() {
                 <div className="contact">
                     <div className="contactleft">
                         <div className="itemscontact">
-                            <p>Let's Talk,</p>
+                            <span>Let's Talk,</span>
                             <p>I'm open to discussing Web Development and Mobile Application Development.</p>
                         </div>
                         <div className="contacttext">
