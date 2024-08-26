@@ -1,11 +1,12 @@
-import Reacr from 'react';
 import './ServicePage.css';
 
-function ServicePage(){
-    return(
+function ServicePage() {
+    return (
         <>
-        <div className="services">
-            <div className="serviceboxmain">
+            <div className="serviceboxmain" id='service'>
+                <div className="topic">
+                    <h1>My Services.</h1>
+                </div>
                 <div className="servicebox1">
                     <div className="boxtext">
                         <h4>Full-Stack Developer</h4>
@@ -29,7 +30,6 @@ function ServicePage(){
                     </div>
                 </div>
             </div>
-        </div>
         </>
     );
 }
