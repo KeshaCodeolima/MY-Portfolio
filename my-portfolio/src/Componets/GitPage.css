@@ -1,0 +1,36 @@
+.maingit{
+    margin-top: 120%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.gitmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gitmain h3{
+    margin-top: 8%;
+    color:white;
+    font-size: 32px;
+    font-weight: 800;
+}
+.gitbox1{
+    margin-top: 4%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin-left: 6%;
+    max-width: 1400px;
+    margin-bottom: 6%;
+}
+.gitbox{
+    color: white;
+    background-color: #464748;
+    border-radius: 6px;
+    margin-top: 2%;
+    padding:30px;
+    transition: 2s;
+}
