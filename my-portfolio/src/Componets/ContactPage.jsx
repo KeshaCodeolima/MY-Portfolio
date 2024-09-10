@@ -1,11 +1,16 @@
-import {useState,useRef} from 'react'
+import {useState,useRef, useEffect} from 'react'
 import './ContactPage.css';
 import { FaEnvelope, FaPhone, FaHome } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 import {ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AoS from 'aos';
+import 'aos/dist/aos.css'
 
 function ContactPage() {
+    useEffect(()=>{
+        AoS.init()
+    },[])
     const [formData, setForm] = useState({
         user_name: '',
         user_email: '',
@@ -80,7 +85,7 @@ function ContactPage() {
             <div className="contactmain" id='contact'>
                 <h1>Contact Page.</h1>
                 <div className="contact">
-                    <div className="contactleft">
+                    <div className="contactleft" data-aos="fade-up-right">
                         <div className="itemscontact">
                             <span>Let's Talk,</span>
                             <p>I'm open to discussing Web Development and Mobile Application Development.</p>
@@ -91,7 +96,7 @@ function ContactPage() {
                             <p><FaHome className='icons' />151/1 Andagalawaththa Bamunugedara Kurunegala.</p>
                         </div>
                     </div>
-                    <div className="contactright">
+                    <div className="contactright" data-aos="fade-up-left">
                         <form ref={form} onSubmit={submit}>
                             <div className="sendmail">
                                 <input type="" name='user_name' placeholder='Enter Your Name' 
