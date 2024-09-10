@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AboutMe.css';
+import AoS from 'aos';
+import 'aos/dist/aos.css'
 
 function AboutMe() {
+  useEffect(()=>{
+    AoS.init({duration:3000})
+  },[])
   return (
     <>
     <div className="aboutmain" id='aboutme'>
@@ -9,10 +14,10 @@ function AboutMe() {
         <h1>About Me.</h1>
       </div>
       <div className="iteam">
-        <div className="textAbout">
+        <div className="textAbout" data-aos="zoom-in-right">
           <p className='text1'>I am a passionate Full-Stack developer with a focus on building modern and responsive Web Applications and Mobile Applications. With a strong foundation in both frontend and backend technologies,I strive to create seamless and efficient user experiences.</p>
         </div>
-        <div className="lang">
+        <div className="lang" data-aos="fade-left">
           <div className="langlabel-container">
             <label htmlFor="" className='langlabel'>React JS</label>
             <div className="linerwidth">
@@ -52,7 +57,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
-      <div className="experience1">
+      <div className="experience1" data-aos="flip-down">
         <div className="experiencetext">
           <span>1+</span>
           <p>Years Experience</p>
