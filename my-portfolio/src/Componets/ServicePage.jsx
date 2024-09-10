@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 function ServicePage() {
     useEffect(()=>{
-        AoS.init({duration:3000})
+        AoS.init()
     },[])
     return (
         <>
