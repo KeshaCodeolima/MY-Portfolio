@@ -20,7 +20,7 @@ function Navbar(){
                 </div>
 
                 <div className="rightside">
-                    <button className="button">Contact Me</button>
+                    <button className="button" onClick={()=>document.getElementById('contact').scrollIntoView({behavior:'smooth'})}>Contact Me</button>
                 </div>
             </div>
         </nav>
