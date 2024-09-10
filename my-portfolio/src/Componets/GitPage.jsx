@@ -5,7 +5,7 @@ import GitImage from '../Images/gitrepositores.png';
 function GitPage() {
     return (
         <>
-            <div className="maingit">
+            <div className="maingit" id="git">
                 <div className="gitmain">
                     <h3>Git Repositoires.</h3>
                 </div>
