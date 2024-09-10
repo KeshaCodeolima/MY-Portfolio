@@ -50,6 +50,15 @@
     padding: 4px;
     transition: 1s;
 }
+.linerwidthangular{
+    border: 3px white solid;
+    display: flex;
+    width: 70%;
+    margin-left:8.5%;
+    border-radius: 22px;
+    padding: 4px;
+    transition: 1s;
+}
 .linerwidthhtml{
     border: 3px white solid;
     display: flex;
@@ -93,6 +102,13 @@
     border-radius: 22px;
     transition: 1s;
 }
+.lineangular{
+    height: 8px;
+    background:linear-gradient(to right, #53ea49,#2575b7);
+    width: 84%;
+    border-radius: 22px;
+    transition: 1s;
+}
 .lineHTML{
     height: 8px;
     background-image: linear-gradient(to right, #53ea49,#2575b7);
@@ -132,10 +148,10 @@
     color: white;
     font-size: 18px;
 }
-.lineractjs:hover,.lineHTML:hover,.linejava:hover,.linepython:hover,.linePHP:hover,.lineNodejs:hover{
+.lineractjs:hover,.lineangular:hover,.lineHTML:hover,.linejava:hover,.linepython:hover,.linePHP:hover,.lineNodejs:hover{
     transform: scale(1);
 }
-.linerwidth:hover,.linerwidthhtml:hover,.linerwidthjava:hover,.linerwidthpython:hover,.linerwidthphp:hover,.linerwidthnodejs:hover{
+.linerwidth:hover,.linerwidthangular:hover,.linerwidthhtml:hover,.linerwidthjava:hover,.linerwidthpython:hover,.linerwidthphp:hover,.linerwidthnodejs:hover{
     transform: scale(1.1);
 }
 .experience1{

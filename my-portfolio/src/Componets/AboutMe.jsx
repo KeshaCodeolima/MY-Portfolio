@@ -20,6 +20,12 @@ function AboutMe() {
             </div>
           </div>
           <div className="langlabel-container">
+            <label htmlFor="" className='langlabel'>Angular</label>
+            <div className="linerwidthangular">
+              <div className="lineangular"></div>
+            </div>
+          </div>
+          <div className="langlabel-container">
             <label htmlFor="" className='langlabel'>HTML & CSS</label>
             <div className="linerwidthhtml">
               <div className="lineHTML"></div>
