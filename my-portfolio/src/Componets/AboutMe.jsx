@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 
 function AboutMe() {
   useEffect(()=>{
-    AoS.init()
+    AoS.init({duration:1000})
   },[])
   return (
     <>

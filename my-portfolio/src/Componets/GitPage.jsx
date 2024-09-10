@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 
 function GitPage() {
     useEffect(()=>{
-        AoS.init()
+        AoS.init({duration:1000})
     },[])
     return (
         <>

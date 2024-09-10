@@ -9,7 +9,7 @@ import 'aos/dist/aos.css'
 
 function ContactPage() {
     useEffect(()=>{
-        AoS.init()
+        AoS.init({duration:1000})
     },[])
     const [formData, setForm] = useState({
         user_name: '',
