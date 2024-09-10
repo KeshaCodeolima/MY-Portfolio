@@ -1,0 +1,66 @@
+.maingit{
+    margin-top: 120%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.gitmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gitmain h3{
+    margin-top: 8%;
+    color:white;
+    font-size: 32px;
+    font-weight: 800;
+}
+.gitbox1{
+    margin-top: 4%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    width: 90%;
+    margin-left: 4%;
+    max-width: 1600px;
+    margin-bottom: 6%;
+}
+.gitbox{
+    color: white;
+    background-color: #464748;
+    border-radius: 6px;
+    margin-top: 2%;
+    padding:30px;
+    height: 250px;
+    transition: 2s;
+}
+.gitbox:hover{
+    transform: scale(1.1);
+}
+.gitbox p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.buttongit{
+    background-image: linear-gradient(to right, #53ea49,#2575b7);
+    border: none;   
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -2%;
+    padding: 8px;
+    width: 38%;
+    align-items: center;
+    transition: 2s;
+}
+.buttongit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gitimage{
+    width: 46vh;
+    height: 23vh;
+    border-radius: 6px;
+}
