@@ -5,7 +5,7 @@ import { FaEnvelope,FaPhone,FaHome } from "react-icons/fa";
 function ContactPage() {
     return (
         <>
-            <div className="contactmain">
+            <div className="contactmain" id='contact'>
                 <h1>Contact Page.</h1>
                 <div className="contact">
                     <div className="contactleft">
