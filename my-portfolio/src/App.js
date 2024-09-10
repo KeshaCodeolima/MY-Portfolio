@@ -3,6 +3,7 @@ import ContactPage from "./Componets/ContactPage";
 import Navbar from "./Componets/Navbar";
 import ServicePage from "./Componets/ServicePage";
 import HomePage from "./Componets/HomePage";
+import GitPage from "./Componets/GitPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <HomePage/>
     <AboutMe/>
     <ServicePage/>
+    <GitPage/>
     <ContactPage/>
     </>
   );
