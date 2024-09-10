@@ -17,7 +17,7 @@ function HomePage() {
             <p className='textp2'>I specialize in building modern and responsive Web Applications and Mobile Applications.</p>
         </div>
         <div className="button1">
-            <button className='btn1'>Contact with me</button>
+            <button className='btn1' onClick={()=> document.getElementById('contact').scrollIntoView({behavior:'smooth'})}>Contact with me</button>
             <button className='btn1'>Download CV</button>
         </div>
     </div>
