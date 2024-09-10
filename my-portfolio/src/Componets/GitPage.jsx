@@ -12,23 +12,31 @@ function GitPage() {
                 <div className="gitbox1">
                     <div className="gitbox">
                         <img src={GitImage} alt="gitimage" className="gitimage" />
-                        <p>Tourism Web</p>
-                        <button className="buttongit">GIT HUB</button>
+                        <p>Tourism Web Frondend</p>
+                        <a href="https://github.com/KeshaCodeolima/MY-MERN-Frontend" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                            <button className="buttongit">GIT HUB</button>
+                        </a>
                     </div>
                     <div className="gitbox">
                         <img src={GitImage} alt="gitimage" className="gitimage" />
-                        <p>Tourism Web1</p>
-                        <button className="buttongit">GIT HUB</button>
+                        <p>Tourism Web Backend</p>
+                        <a href="https://github.com/KeshaCodeolima/MERN-Backend" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                            <button className="buttongit">GIT HUB</button>
+                        </a>
                     </div>
                     <div className="gitbox">
                         <img src={GitImage} alt="gitimage" className="gitimage" />
-                        <p>Tourism Web2</p>
-                        <button className="buttongit">GIT HUB</button>
+                        <p>Angular Web Frondend</p>
+                        <a href="https://github.com/KeshaCodeolima/AngularFrontend" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                            <button className="buttongit">GIT HUB</button>
+                        </a>
                     </div>
                     <div className="gitbox">
                         <img src={GitImage} alt="gitimage" className="gitimage" />
-                        <p>Tourism Web3</p>
-                        <button className="buttongit">GIT HUB</button>
+                        <p>Angular Web Backend</p>
+                        <a href="https://github.com/KeshaCodeolima/PythonBackendAngular" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}>
+                            <button className="buttongit">GIT HUB</button>
+                        </a>
                     </div>
                 </div>
             </div>
