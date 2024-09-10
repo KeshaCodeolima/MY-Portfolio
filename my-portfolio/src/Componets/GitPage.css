@@ -35,6 +35,10 @@
     padding:30px;
     transition: 2s;
     height: 250px;
+    transition: 2s;
+}
+.gitbox:hover{
+    transform: scale(1.1);
 }
 .gitbox p{
     margin-top: 160px;
@@ -43,7 +47,7 @@
 }
 .buttongit{
     background-image: linear-gradient(to right, #53ea49,#2575b7);
-    border: none;
+    border: none;   
     outline: none;
     color: white;
     font-size: 14px;
