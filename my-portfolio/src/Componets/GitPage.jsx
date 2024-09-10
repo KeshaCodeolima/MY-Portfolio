@@ -12,22 +12,22 @@ function GitPage() {
                     <div className="gitbox">
                         <img src="" alt="" />
                         <p>Tourism Web</p>
-                        <button>GIT HUB</button>
+                        <button className="buttongit">GIT HUB</button>
                     </div>
                     <div className="gitbox">
                         <img src="" alt="" />
                         <p>Tourism Web1</p>
-                        <button>GIT HUB</button>
+                        <button className="buttongit">GIT HUB</button>
                     </div>
                     <div className="gitbox">
                         <img src="" alt="" />
                         <p>Tourism Web2</p>
-                        <button>GIT HUB</button>
+                        <button className="buttongit">GIT HUB</button>
                     </div>
                     <div className="gitbox">
                         <img src="" alt="" />
                         <p>Tourism Web3</p>
-                        <button>GIT HUB</button>
+                        <button className="buttongit">GIT HUB</button>
                     </div>
                 </div>
             </div>
